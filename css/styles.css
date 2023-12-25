@@ -52,23 +52,27 @@ ul {
 }
 
 .header-list-link {
-  color: #434455;
+  color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .header-list-link:hover {
-  color: #4d5ae5;
+  color: var(--OCEAN, #404bbf);
+  color: #404bbf;
 }
 .header-list-link:focus {
-  color: #4d5ae5;
+  color: var(--OCEAN, #404bbf);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: #404bbf;
 }
+
 /* --------------------- */
 /* --------hero--------- */
 
