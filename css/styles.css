@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color:#434455
+  background-color:#FFFFFF
 }
 a {
   text-decoration: none;
@@ -19,22 +21,31 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.address {font-style: normal}
+.address-list-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.address-list-item:hover {color:#404bbf}
+.address-list-item:focus {color: #404bbf}
 /* --------header------ */
 .header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: "Raleway";
+  color:#4d5ae5;
+  font-family: "Raleway", sans-serif,
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17 /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-logo-light {
-  color: var(--IRIS, #4d5ae5);
-  font-family: "Raleway";
+  color:#2e2f42;
+  font-family: "Raleway", sans-serif,
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -49,7 +60,7 @@ ul {
 .header-list-link:hover {
   color: var(--OCEAN, #404bbf);
 }
-.header-list-link-studio:active {
+.header-list-link:focus {
   color: var(--OCEAN, #404bbf);
   font-family: Roboto;
   font-size: 16px;
@@ -72,6 +83,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .hero-button {
+    background-color: #4D5AE5
   color: var(--WHITE, #fff);
   font-family: inherit;
   font-size: 16px;
@@ -80,6 +92,8 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.hero-button:hover {background-color: #404BBF}
+.hero-button:focus {background-color: #404BBF}
 /* -------------------- */
 /* --------features------ */
 .features {
@@ -155,6 +169,7 @@ ul {
 .portfolio-list {
 }
 .portfolio-list-item {
+    background-color: #FFFFFF
 }
 .portfolio-list-img {
 }
@@ -180,20 +195,20 @@ ul {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
-  font-family: "Raleway";
+  color: var(--IRIS, #4D5AE5);
+   font-family: "Raleway", sans-serif
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-logo-light {
-  color: var(--IRIS, #4d5ae5);
-  font-family: "Raleway";
+  color: #f4f4fd;
+   font-family: "Raleway", sans-serif
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
