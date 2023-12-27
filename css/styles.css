@@ -177,10 +177,11 @@ ul {
   text-transform: capitalize;
 }
 .portfolio-list {
-  background: #fff;
 }
 .portfolio-list-item {
+  background: #fff;
 }
+
 .portfolio-list-img {
 }
 .portfolio-list-subtitle {
