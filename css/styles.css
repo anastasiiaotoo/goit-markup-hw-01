@@ -69,7 +69,7 @@ ul {
 .address-list-link {
   color: #434455;
 }
-. .address-list-link:hover {
+.address-list-link:hover {
   color: #404bbf;
 }
 .address-list-link:focus {
@@ -178,6 +178,7 @@ ul {
   text-transform: capitalize;
 }
 .portfolio-list {
+  background-color: #ffffff;
 }
 .portfolio-list-item {
   background-color: #ffffff;
