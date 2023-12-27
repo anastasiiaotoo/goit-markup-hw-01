@@ -66,10 +66,13 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-list-item:hover {
+.address-list-link {
+  color: #434455;
+}
+. .address-list-link:hover {
   color: #404bbf;
 }
-.address-list-item:focus {
+.address-list-link:focus {
   color: #404bbf;
 }
 /* --------------------- */
@@ -163,7 +166,7 @@ ul {
 /* -------------------- */
 /* -------portfolio-------- */
 .portfolio {
-  background: #fff;
+  background-color: #fff;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -177,7 +180,7 @@ ul {
 .portfolio-list {
 }
 .portfolio-list-item {
-  color: #ffffff;
+  background-color: #ffffff;
 }
 .portfolio-list-img {
 }
