@@ -166,7 +166,6 @@ ul {
 /* -------------------- */
 /* -------portfolio-------- */
 .portfolio {
-  background: #fff;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -178,6 +177,7 @@ ul {
   text-transform: capitalize;
 }
 .portfolio-list {
+  background: #fff;
 }
 .portfolio-list-item {
 }
