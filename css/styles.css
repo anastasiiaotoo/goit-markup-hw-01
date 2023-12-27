@@ -166,6 +166,7 @@ ul {
 /* -------------------- */
 /* -------portfolio-------- */
 .portfolio {
+  background-color: #ffffff;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -178,12 +179,13 @@ ul {
 }
 .portfolio-list {
 }
+
 .portfolio-list-item {
-  background-color: #ffffff;
 }
 
 .portfolio-list-img {
 }
+
 .portfolio-list-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
