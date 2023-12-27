@@ -166,7 +166,7 @@ ul {
 /* -------------------- */
 /* -------portfolio-------- */
 .portfolio {
-  background-color: #fff;
+  background: #fff;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
