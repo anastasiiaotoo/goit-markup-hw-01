@@ -179,10 +179,10 @@ ul {
 .portfolio-list {
 }
 .portfolio-list-item {
-  background: #fff;
 }
 
 .portfolio-list-img {
+  background: #fff;
 }
 .portfolio-list-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
