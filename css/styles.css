@@ -108,7 +108,7 @@ ul {
 /* -------------------- */
 /* --------features------ */
 .features {
-  background: #fff;
+  background-color: #ffffff;
 }
 .features-list {
 }
@@ -179,13 +179,10 @@ ul {
 }
 .portfolio-list {
 }
-
 .portfolio-list-item {
 }
-
 .portfolio-list-img {
 }
-
 .portfolio-list-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
