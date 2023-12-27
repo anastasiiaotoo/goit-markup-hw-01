@@ -187,6 +187,7 @@ ul {
 .portfolio-list-img {
 }
 .portfolio-list-subtitle {
+  background-color: #ffffff;
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 20px;
@@ -195,6 +196,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .portfolio-list-text {
+  background-color: #ffffff;
   color: var(--SLATE, #434455);
   text-align: center;
   font-size: 16px;
