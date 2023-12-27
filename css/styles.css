@@ -16,21 +16,6 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.address {
-  font-style: normal;
-}
-.address-list-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.address-list-item:hover {
-  color: #404bbf;
-}
-.address-list-item:focus {
-  color: #404bbf;
-}
 /* --------header------ */
 .header-logo {
   color: #4d5ae5;
@@ -72,7 +57,21 @@ ul {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
-
+.address {
+  font-style: normal;
+}
+.address-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-list-item:hover {
+  color: #404bbf;
+}
+.address-list-item:focus {
+  color: #404bbf;
+}
 /* --------------------- */
 /* --------hero--------- */
 
@@ -178,7 +177,7 @@ ul {
 .portfolio-list {
 }
 .portfolio-list-item {
-  background-color: #ffffff;
+  color: #ffffff;
 }
 .portfolio-list-img {
 }
