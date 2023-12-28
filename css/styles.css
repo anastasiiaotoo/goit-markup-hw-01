@@ -130,7 +130,7 @@ ul {
 /* -------------------- */
 /* ---------team------- */
 .team {
-  background: var(--CLOUD, #ffffff);
+  background: var(--CLOUD, #f4f4fd);
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
