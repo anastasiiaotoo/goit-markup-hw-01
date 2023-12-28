@@ -130,7 +130,7 @@ ul {
 /* -------------------- */
 /* ---------team------- */
 .team {
-  background: var(--CLOUD, #f4f4fd);
+  background: var(--CLOUD, #ffffff);
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -179,7 +179,6 @@ ul {
 .portfolio-list {
 }
 .portfolio-list-item {
-  background: var(--WHITE, #fff);
 }
 
 .portfolio-list-img {
